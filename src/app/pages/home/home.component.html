@@ -5,7 +5,7 @@ size="medium"
 color="#fff"
 type="ball-scale-multiple"
 >
-<p style="font-size: 20px; color: white">Loading...</p>
+<p style="font-size: 20px; color: white">Đang tải...</p>
 </ngx-spinner>
 <section class="home_banner_area">
     <div class="banner_inner d-flex align-items-center">
@@ -25,7 +25,7 @@ type="ball-scale-multiple"
             aria-selected="false" style="border-top-left-radius:8px;border-top-right-radius:8px;">Ước tính giá về tay</a>
                     <a class="nav-item nav-link   text-white" id="nav-track-tab" 
                     data-toggle="tab" href="#nav-track" role="tab" aria-controls="nav-track"
-                     aria-selected="false" style="border-top-left-radius:8px;border-top-right-radius:8px;">Track Shipment</a>
+                     aria-selected="false" style="border-top-left-radius:8px;border-top-right-radius:8px;">Theo dõi đơn hàng</a>
 
                 </div>
               </nav>
@@ -37,98 +37,98 @@ type="ball-scale-multiple"
                                     <div class="row">
                   <div class="col-lg-4">
                     <div class="form-group">
-                      <label for="firstName">First name</label>
-                      <input type="text" class="form-control" id="firstName" name="fname" required [(ngModel)]='data.fname' aria-describedby="emailHelp" placeholder="Enter first name"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter first name'" />
+                      <label for="firstName">Tên</label>
+                      <input type="text" class="form-control" id="firstName" name="fname" required [(ngModel)]='data.fname' aria-describedby="emailHelp" placeholder="Nhập Tên"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập Tên'" />
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="form-group">
-                      <label for="lastName">Last name</label>
-                      <input type="text" class="form-control" id="lastName" name="lname" required [(ngModel)]='data.lname' placeholder="Enter last name" onfocus="this.placeholder = ''"
-                        onblur="this.placeholder = 'Enter last name'" />
+                      <label for="lastName">Họ</label>
+                      <input type="text" class="form-control" id="lastName" name="lname" required [(ngModel)]='data.lname' placeholder="Nhập Họ" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Nhập Họ'" />
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="form-group">
-                      <label for="emailAddress">Email Address</label>
-                <input type="email" class="form-control" id="emailAddress" name="email" required [(ngModel)]='data.email' placeholder="Enter email address"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" />
+                      <label for="emailAddress">Địa chỉ Email</label>
+                <input type="email" class="form-control" id="emailAddress" name="email" required [(ngModel)]='data.email' placeholder="Nhập địa chỉ email"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập địa chỉ email'" />
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="form-group">
-                      <label for="cargoType">Contact Number</label>
-                      <input type="text" class="form-control" id="cargoType" name="phone" required [(ngModel)]='data.phone' placeholder="Enter Contact Number" onfocus="this.placeholder = ''"
-                        onblur="this.placeholder = 'Enter Contact Number'" />
-                    </div>
-                  </div>
-
-
-                  <div class="col-lg-4">
-                    <div class="form-group">
-                      <label for="destination">Product Link</label>
-                      <input type="text" class="form-control" id="link" name="link" required [(ngModel)]='data.link' placeholder="Please paste Product Link"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Please paste Product Link'" />
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="form-group">
-                      <label for="destination">Product Color</label>
-                      <input type="text" class="form-control" id="color" name="color" required [(ngModel)]='data.color' placeholder="Please paste color from website"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Please paste color from website '" />
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="form-group">
-                      <label for="destination">Product Id</label>
-                      <input type="text" class="form-control" id="pid" name="pid" required [(ngModel)]='data.pid' placeholder="Please paste Product ID"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Please paste Product ID'" />
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="form-group">
-                      <label for="destination">Quantity</label>
-                      <input type="text" class="form-control" id="quantity" name="quantity" required [(ngModel)]='data.quantity' placeholder="Enter Quantity"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Quantity'" />
+                      <label for="cargoType">Điện thoại liên lạc</label>
+                      <input type="text" class="form-control" id="cargoType" name="phone" required [(ngModel)]='data.phone' placeholder="Nhập số điện thoại" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Nhập số điện thoại'" />
                     </div>
                   </div>
 
 
                   <div class="col-lg-4">
                     <div class="form-group">
-                      <label for="countryOfOrigin">Country of Origin</label>
-                      <input type="text" class="form-control" id="countryOfOrigin" name="corigin" required [(ngModel)]='data.corigin' placeholder="Enter country of origin"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter country of origin'"  />
+                      <label for="destination">Link sản phẩm</label>
+                      <input type="text" class="form-control" id="link" name="link" required [(ngModel)]='data.link' placeholder="Nhập Link sản phẩm"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập Link sản phẩm'" />
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="form-group">
-                      <label for="destination">Destination</label>
-                      <input type="text" class="form-control" id="destination" name="destination" required [(ngModel)]='data.destination' placeholder="Enter destination"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter destination'" />
+                      <label for="destination">Màu sản phẩm</label>
+                      <input type="text" class="form-control" id="color" name="color" required [(ngModel)]='data.color' placeholder="Nhập màu sản phẩm từ web"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập màu sản phẩm từ web'" />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label for="destination">ID sản phẩm</label>
+                      <input type="text" class="form-control" id="pid" name="pid" required [(ngModel)]='data.pid' placeholder="Nhập ID sản phẩm"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập ID sản phẩm'" />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label for="destination">Số lượng</label>
+                      <input type="text" class="form-control" id="quantity" name="quantity" required [(ngModel)]='data.quantity' placeholder="Nhập số lượng"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập số lượng'" />
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label for="countryOfOrigin">Mua hàng từ nước</label>
+                      <input type="text" class="form-control" id="countryOfOrigin" name="corigin" required [(ngModel)]='data.corigin' placeholder="Nhập đất nước mua hàng"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập đất nước mua hàng'"  />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label for="destination">Mua hàng về nước</label>
+                      <input type="text" class="form-control" id="destination" name="destination" required [(ngModel)]='data.destination' placeholder="Nhập đất nước chuyển hàng về"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập đất nước chuyển hàng về'" />
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="form-group">
                       <label for="file">File</label>
-                      <input type="file" class="form-control" id="file" name="file" accept="image/jpeg,.csv,.xls" required [(ngModel)]='data.file' placeholder="upload xls file"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'upload xls file'" />
+                      <input type="file" class="form-control" id="file" name="file" accept="image/jpeg,.csv,.xls" required [(ngModel)]='data.file' placeholder="Tải file xls"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tải file xls'" />
                     </div>
                   </div>
 
 
                   <div class="col-lg-12 mt-4">
                     <div class="text-center confirm_btn_box">
-                      <button class="main_btn text-uppercase">Request a Quote</button>
+                      <button class="main_btn text-uppercase">Yêu cầu Báo giá</button>
                     </div>
                   </div>
                 </div>
@@ -157,8 +157,8 @@ type="ball-scale-multiple"
 
                         <div id="form-step-1" role="form" data-toggle="validator">
                          <div class="form-group">
-                             <label for="name">ITEM PRICE</label>
-              <input type="text" class="form-control" name="name" id="email" placeholder="Write Item Price" required [(ngModel)]='data2.iprice'>
+                             <label for="name">GIÁ SẢN PHẨM</label>
+              <input type="text" class="form-control" name="name" id="email" placeholder="Nhập giá sản phẩm" required [(ngModel)]='data2.iprice'>
                              <div class="help-block with-errors"></div>
                          </div>
                      </div>
@@ -168,8 +168,8 @@ type="ball-scale-multiple"
 
                         <div id="form-step-1" role="form" data-toggle="validator">
                          <div class="form-group">
-                             <label for="name">ITEM WEIGHT</label>
-          <input type="text" class="form-control" name="name" id="email" placeholder="WEIGHT in Grams" required [(ngModel)]='data2.iweight'>
+                             <label for="name">CÂN NẶNG SẢN PHẨM</label>
+          <input type="text" class="form-control" name="name" id="email" placeholder="Nhập cân nặng sản phẩm theo Gram" required [(ngModel)]='data2.iweight'>
                              <div class="help-block with-errors"></div>
                          </div>
                      </div>
@@ -180,8 +180,8 @@ type="ball-scale-multiple"
                       <div class="col-lg-6">
                       <div id="form-step-2" role="form" data-toggle="validator">
                         <div class="form-group">
-                            <label for="name">DISCOUNT </label>
-          <input type="text" class="form-control" name="name" id="email" placeholder="Write Discount" required [(ngModel)]='data2.discount'>
+                            <label for="name">GIẢM GIÁ</label>
+          <input type="text" class="form-control" name="name" id="email" placeholder="Nhập số tiền giảm giá" required [(ngModel)]='data2.discount'>
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -194,8 +194,8 @@ type="ball-scale-multiple"
 
                        <div id="form-step-2" role="form" data-toggle="validator">
                         <div class="form-group">
-                            <label for="name">QUANTITY </label>
-            <input type="text" class="form-control" name="name" id="email" placeholder="Write Quantity" required [(ngModel)]='data2.quantity'>
+                            <label for="name">SỐ LƯỢNG</label>
+            <input type="text" class="form-control" name="name" id="email" placeholder="Nhập số lượng" required [(ngModel)]='data2.quantity'>
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ type="ball-scale-multiple"
 
                    </div>
                    <div class="text-center mt-3">
-                            <button class="main_btn text-uppercase">Submit</button>
+                            <button class="main_btn text-uppercase">Gửi</button>
                           </div>
                         </form>
                 </div>
@@ -215,8 +215,8 @@ type="ball-scale-multiple"
  <form   id="myForm" role="form" data-toggle="validator"  accept-charset="utf-8">
               <div id="smartwizard">
             <ul>
-                <li class="text-uppercase"><a href="#step-1">Enter Order Info</a></li>
-                <li class="text-uppercase"><a href="#step-2">Track Information</a></li>
+                <li class="text-uppercase"><a href="#step-1">Nhập thông tin Order</a></li>
+                <li class="text-uppercase"><a href="#step-2">Theo dõi thông tin</a></li>
 
             </ul>
 
@@ -228,9 +228,9 @@ type="ball-scale-multiple"
 
                           <div id="form-step-2" role="form" data-toggle="validator">
                            <div class="form-group">
-                               <label for="name">Tracking Number</label>
+                               <label for="name">Số tracking</label>
                                <input type="text" class="form-control" name="name" id="email"
-                                placeholder="Write Tracking Number" required [(ngModel)]='data3.tno'>
+                                placeholder="Nhập số tracking" required [(ngModel)]='data3.tno'>
                                <div class="help-block with-errors"></div>
                            </div>
                        </div>
@@ -240,11 +240,11 @@ type="ball-scale-multiple"
                         <div class="btn-tool sw-toolbar sw-toolbar-bottom justify-content-end">
                             <div class="btn-group mr-2 sw-btn-group" role="group">
                               <button class="btn btn-secondary main_btn sw-btn-prev disabled"
-                               type="button">Previous</button>
+                               type="button">Trước</button>
                               <button class="btn btn-secondary main_btn sw-btn-next" (click)='order()'
-                               >Next</button>
+                               >Tiếp</button>
                             </div><div class="btn-group mr-2 sw-btn-group-extra" role="group">
-                            <button class="btn btn-info">Finish</button><button class="btn btn-danger">Cancel
+                            <button class="btn btn-info">Xong</button><button class="btn btn-danger">Cancel
                               
                             </button></div></div>
 
